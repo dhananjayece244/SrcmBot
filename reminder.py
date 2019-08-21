@@ -14,7 +14,7 @@ webhook_url = 'https://outlook.office.com/webhook/cfafe822-a683-482f-9fc5-7090be
 slack_data = {'text': "Its Dj's turn."}
 current_person = 5
 No_of_Employee = 5
-holidays = ["08/15/19", "08/21/19"]
+holidays = ["01/15/19", "05/01/19", "06/05/19", "08/15/19", "09/02/19", "10/02/19", "10/08/19", "10/28/19", "11/01/19", "12/25/19"]
 
 def PostRequest(message):
     response = requests.post(
@@ -69,8 +69,8 @@ def reminder():
 
     
 
-schedule.every(10).seconds.do(reminder)
-# schedule.every().day.at("12:48").do(reminder)
+# schedule.every(10).seconds.do(reminder)
+schedule.every().day.at("14:40").do(reminder)
 
 while True: 
   
