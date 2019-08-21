@@ -1,1 +1,3 @@
 # SrcmBot
+
+Standup meeting reminder 
