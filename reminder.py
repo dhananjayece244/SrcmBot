@@ -69,8 +69,8 @@ def reminder():
 
     
 
-# schedule.every(10).seconds.do(reminder)
-schedule.every().day.at("14:40").do(reminder)
+schedule.every(10).seconds.do(reminder)
+# schedule.every().day.at("14:40").do(reminder)
 
 while True: 
   
