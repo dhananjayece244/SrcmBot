@@ -8,7 +8,7 @@ import datetime
 
 # print(x.year)
 # print(x.strftime("%A")
-
+print("reminder running")
 
 webhook_url = 'https://outlook.office.com/webhook/cfafe822-a683-482f-9fc5-7090bea57b4b@3928808b-8a46-426b-8f87-051a36bb2f91/IncomingWebhook/dedbfa6c22a043f7acb5d57d7615abcc/2d48d6b7-9201-4514-8d19-0d400a3a22e8'
 slack_data = {'text': "Its Dj's turn."}
